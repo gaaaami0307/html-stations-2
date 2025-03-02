@@ -17,7 +17,7 @@ function displayList(){
   ul.appendChild(li1);
   ul.appendChild(li2);
   ul.appendChild(li3);
-  p.parentNode.removeChild(ul,p);
+  p.parentNode.replaceChild(ul,p);
 
   document.body.appendChild(ul);
   
