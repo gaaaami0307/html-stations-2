@@ -21,9 +21,9 @@ function displayList(){
   //p = document.querySelector("button");
   //document.body.insertBefore(ul,p);
   //p.parentNode.removeChild(p);
+  p=document.getElementById("fruits");
 
-
-  document.body.appendChild(ul);
+  p.appendChild(ul);
   //document.body.appendChild(p);
   
 
