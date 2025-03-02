@@ -1,28 +1,21 @@
 #container{
-  display:grid;
-  grid-template-columns: 1fr 3fr;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: auto 1fr 1fr 1fr auto;
-  grid-template-areas: 
-    "header header"
-    "sidebar main"
-    "sidebar main"
-    "sidebar main"
-    "footer footer";
   gap: 10px;
 }
 
 .sidebar{
-  grid-area:sidebar;
-}
-
-.main{
-
+  grid-column: 1 / 2;
+  grid-row: 2 / 5;
 }
 
 header{
-  grid-area:header;
+  grid-column: 1 / 3;
+  grid-row: 1;
 }
 
 footer{
-  grid-area:footer;
+  grid-column: 1 / 3;
+  grid-row: 5;
 }
