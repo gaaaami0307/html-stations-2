@@ -1,0 +1,3 @@
+function alartFire(){
+  alert("ECMAScript");
+}
