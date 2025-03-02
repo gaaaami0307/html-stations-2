@@ -18,13 +18,13 @@ function displayList(){
   ul.appendChild(li1);
   ul.appendChild(li2);
   ul.appendChild(li3);
-  p = document.querySelector("button");
-  document.body.insertBefore(ul,p);
-  p.parentNode.removeChild(p);
+  //p = document.querySelector("button");
+  //document.body.insertBefore(ul,p);
+  //p.parentNode.removeChild(p);
 
 
   document.body.appendChild(ul);
-  document.body.appendChild(p);
+  //document.body.appendChild(p);
   
 
 
