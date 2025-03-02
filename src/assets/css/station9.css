@@ -1,12 +1,18 @@
 @keyframes FadeIn{
   0% {
-    opacity : 0;
+    opacity : 1;
   }
   100% {
-    opacity : 1;
+    opacity : 0;
+    display: none;
   }
 }
 
 #animation{
-  animation:FadeIn 2s ease-in-out forwards;
+  animation:FadeIn 0.1s ease-in-out forwards;
+  animation-play-state: paused;
+}
+
+#animation:hover{
+  animation-play-state: running;
 }
